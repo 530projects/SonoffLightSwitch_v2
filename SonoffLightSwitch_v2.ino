@@ -25,6 +25,7 @@ Sonoff In-Wall Light Switch V2.0
 This code was strung together by 530Projects, using snipits of code from others.
 Because it was made with open source code snipits, it is to remain open sourced.
 
+You can find this code at https://github.com/530projects/SonoffLightSwitch_v2
 */
 
 
