@@ -2,8 +2,8 @@
 const char* ssid = "YourWifiSSID";				//Change to your Wifi Network's SSID
 const char* password = "YourWifiPassword";		//Change to your Wifi Network's Password
 const char* mqtt_server = "192.168.1.2";		//Change to your MQTT Brokers IP address
-const char* mqtt_user = "myMQTTuser";			//Change to your MQTT User Name
-const char* mqtt_pass = "MQTTme";				//Change to your MQTT User's Password
+const char* mqtt_user = "MQTTuser";			//Change to your MQTT User Name
+const char* mqtt_pass = "MQTTpassword";				//Change to your MQTT User's Password
 
 //These Items don't need to be changed, but you should make it match your mqtt scheme
 #define pubTopicLight "/home/light/sonoff/01/State/"           //Light State publish Topic
