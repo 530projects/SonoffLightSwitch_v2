@@ -1,0 +1,4 @@
+switch.pantry_light:
+  icon: mdi:lightbulb
+  google_assistant: true
+  google_assistant_name: pantry light
