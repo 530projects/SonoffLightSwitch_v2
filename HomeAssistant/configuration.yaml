@@ -1,0 +1,10 @@
+switch:
+  - platform: mqtt
+    name: "Pantry Light"
+    state_topic: "/home/light/sonoff/01/State/"
+    command_topic: "/home/light/sonoff/01/cmd/"
+    #payload_on: "ON"
+    #payload_off: "OFF"
+    qos: 1
+    retain: true
+    value_template: '{{ value_json.LightState.value }}'
