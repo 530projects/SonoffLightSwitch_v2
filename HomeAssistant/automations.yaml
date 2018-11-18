@@ -1,0 +1,12 @@
+- id: Turn Off Pantry Lights
+  alias: Turn off Pantry lights
+  trigger:
+  - platform: state
+    entity_id: switch.pantry_light
+    from: 'off'
+    to: 'on'
+    for:
+      minutes: 5
+  action:
+    service: switch.turn_off
+    entity_id: switch.pantry_light
